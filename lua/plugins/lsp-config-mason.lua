@@ -34,12 +34,13 @@ return {
         },
         filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "cy.js" },
       })
-      lspconfig.phpactor.setup({})
+      lspconfig.phpactor.setup({
+      })
       lspconfig.psalm.setup({})
       lspconfig.vimls.setup({})
       lspconfig.yamlls.setup({})
 
-      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "H", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})
