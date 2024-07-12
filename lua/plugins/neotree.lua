@@ -112,6 +112,8 @@ return {
 					},
 					["<2-LeftMouse>"] = "open",
 					["<cr>"] = "open",
+					["<Right>"] = "open",
+					["<Left>"] = "close_node",
 					["<esc>"] = "cancel", -- close preview or floating neo-tree window
 					["P"] = { "toggle_preview", config = { use_float = false, use_image_nvim = true } },
 					-- Read `# Preview Mode` for more information
@@ -206,9 +208,9 @@ return {
 						["."] = "set_root",
 						["H"] = "toggle_hidden",
 						["/"] = "fuzzy_finder",
-						["D"] = "fuzzy_finder_directory",
+						-- ["D"] = "fuzzy_finder_directory",
 						["#"] = "fuzzy_sorter", -- fuzzy sorting using the fzy algorithm
-						-- ["D"] = "fuzzy_sorter_directory",
+						["D"] = "fuzzy_sorter_directory",
 						["f"] = "filter_on_submit",
 						["<c-x>"] = "clear_filter",
 						["[g"] = "prev_git_modified",
@@ -280,7 +282,7 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>")
+		vim.keymap.set("n", "<C-1>", ":Neotree toggle<CR>")
 		vim.keymap.set("n", "<leader>1", ":Neotree filesystem reveal left<CR>")
 	end,
 }
