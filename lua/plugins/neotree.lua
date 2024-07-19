@@ -100,7 +100,7 @@ return {
 			commands = {},
 			window = {
 				position = "left",
-				width = 60,
+				width = 40,
 				mapping_options = {
 					noremap = true,
 					nowait = true,
