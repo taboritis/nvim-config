@@ -1,2 +1,2 @@
-require("profiles.taboritis.core")
-require("profiles.taboritis.lazy")
+require("taboritis.core")
+require("taboritis.lazy")
