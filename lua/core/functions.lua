@@ -1,4 +1,4 @@
----@diagnostic disable: deprecated
+---@diagnostic disable: need-check-nil
 local function copy_to_clipboard(lines)
 	local joined_lines = table.concat(lines, "\n")
 	local f = io.popen("pbcopy", "w")
