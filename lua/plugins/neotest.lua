@@ -27,4 +27,9 @@ return {
 	vim.keymap.set("n", "<leader>tr", "<cmd>Neotest run last<CR>", {}),
 	-- tests results
 	vim.keymap.set("n", "<leader>ty", "<cmd>Neotest summary toggle<CR>", {}),
+	-- tests output
+	vim.keymap.set("n", "<leader>to", "<cmd>Neotest output<CR>", {}),
+	-- tests output-panel
+	vim.keymap.set("n", "<leader>to", "<cmd>Neotest output-panel toggle<CR>", {}),
+	vim.keymap.set("n", "<leader>toc", "<cmd>Neotest output-panel clear<CR>", {}),
 }
