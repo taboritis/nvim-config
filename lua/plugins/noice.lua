@@ -11,7 +11,7 @@ return {
             cmdline = {
                 view = "cmdline_popup", -- Użyj okna popup dla command-line
                 format = {
-                    cmdline = { pattern = "^:", icon = "", lang = "vim" },
+                    cmdline = { pattern = "^:", icon = "👉 ", lang = "vim" },
                 },
             },
             -- Inne opcje konfiguracji
