@@ -30,7 +30,6 @@ return {
         "dockerfile",
         "gitignore",
         "php",
-        "phpdoc",
         "query",
         "vim",
         "vimdoc",
