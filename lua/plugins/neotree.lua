@@ -282,7 +282,7 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<C-1>", ":Neotree toggle<CR>")
+		vim.keymap.set("n", "<leader>2", ":Neotree close<CR>")
 		vim.keymap.set("n", "<leader>1", ":Neotree reveal left<CR>")
 	end,
 }
