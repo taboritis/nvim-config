@@ -31,9 +31,6 @@ return {
         "html",
         "lua_ls",
         "phpactor",
-        "phpcs",
-        "phpcbf",
-        "php-cs-fixer",
         "emmet_ls",
       },
     })
